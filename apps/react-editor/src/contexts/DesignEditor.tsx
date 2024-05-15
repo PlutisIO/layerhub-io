@@ -1,4 +1,4 @@
-import { IScene } from "@layerhub-io/types"
+import { IScene } from "@layerhub-plutis-io/types"
 import React from "react"
 import {ContextMenuSceneRequest, ContextMenuTimelineRequest, DesignType, IDesign} from "~/interfaces/DesignEditor"
 

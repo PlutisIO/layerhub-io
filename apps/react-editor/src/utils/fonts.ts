@@ -1,5 +1,5 @@
 import { FontItem } from "~/interfaces/common"
-import { IScene, ILayer, IStaticText } from "@layerhub-io/types"
+import { IScene, ILayer, IStaticText } from "@layerhub-plutis-io/types"
 
 const getFontsFromObjects = (objects: Partial<ILayer>[]) => {
   let fonts: any[] = []

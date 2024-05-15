@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Canvas, name, useActiveObject, useEditorObjects, useEditorState } from "@layerhub-io/vue"
+import { Canvas, name, useActiveObject, useEditorObjects, useEditorState } from "@layerhub-plutis-io/vue"
 import { watch, reactive } from "vue"
 
 const editorState = useEditorState()

@@ -1,5 +1,5 @@
 import { nanoid } from "nanoid"
-import { IFrame, IScene } from "@layerhub-io/types"
+import { IFrame, IScene } from "@layerhub-plutis-io/types"
 
 export const defaultTemplate: IScene = {
   id: nanoid(),

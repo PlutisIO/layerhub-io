@@ -1,5 +1,5 @@
 import React from "react"
-import { Canvas } from "@layerhub-io/react"
+import { Canvas } from "@layerhub-plutis-io/react"
 export default function () {
   return (
     <Canvas

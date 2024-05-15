@@ -1,4 +1,4 @@
-import { IFrame } from "@layerhub-io/types"
+import { IFrame } from "@layerhub-plutis-io/types"
 
 export interface Page {
   id: string

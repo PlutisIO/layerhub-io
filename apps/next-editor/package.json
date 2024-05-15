@@ -1,5 +1,5 @@
 {
-  "name": "@layerhub-io/next-editor",
+  "name": "@layerhub-plutis-io/next-editor",
   "version": "0.1.4",
   "private": true,
   "scripts": {
@@ -8,7 +8,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@layerhub-io/react": "workspace:^0.3.0",
+    "@layerhub-plutis-io/react": "workspace:^0.3.0",
     "@types/fabric": "^4.5.7",
     "baseui": "^11.0.3",
     "fabric": "^5.2.1",

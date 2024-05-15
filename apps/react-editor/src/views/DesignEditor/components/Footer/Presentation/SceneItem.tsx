@@ -1,5 +1,5 @@
 import React from "react"
-import { IScene } from "@layerhub-io/types"
+import { IScene } from "@layerhub-plutis-io/types"
 import { Block } from "baseui/block"
 import { useSortable } from "@dnd-kit/sortable"
 import { CSS } from "@dnd-kit/utilities"

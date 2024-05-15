@@ -3,7 +3,7 @@ import type { AppProps } from "next/app"
 import { Provider as StyletronProvider } from "styletron-react"
 import { LightTheme, BaseProvider } from "baseui"
 import { styletron } from "../styletron"
-import { Provider as ScenifyProvider } from "@layerhub-io/react"
+import { Provider as ScenifyProvider } from "@layerhub-plutis-io/react"
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

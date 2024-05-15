@@ -7,5 +7,5 @@
   "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
-  "ignore": ["@layerhub-io/react-editor", "@layerhub-io/vue-editor"]
+  "ignore": ["@layerhub-plutis-io/react-editor", "@layerhub-plutis-io/vue-editor"]
 }

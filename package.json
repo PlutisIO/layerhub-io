@@ -1,5 +1,5 @@
 {
-  "name": "layerhub-io",
+  "name": "layerhub-plutis-io",
   "scripts": {
     "build": "pnpm turbo run build"
   },

@@ -1,4 +1,4 @@
-# layerhub-io
+# layerhub-plutis-io
 
 ## Development
 

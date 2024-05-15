@@ -6,9 +6,9 @@ import Logo from "~/components/Icons/Logo"
 import useDesignEditorContext from "~/hooks/useDesignEditorContext"
 import Play from "~/components/Icons/Play"
 import { Block } from "baseui/block"
-import { useEditor } from "@layerhub-io/react"
+import { useEditor } from "@layerhub-plutis-io/react"
 import useEditorType from "~/hooks/useEditorType"
-import { IScene } from "@layerhub-io/types"
+import { IScene } from "@layerhub-plutis-io/types"
 import { loadTemplateFonts } from "~/utils/fonts"
 import { loadVideoEditorAssets } from "~/utils/video"
 import DesignTitle from "./DesignTitle"
@@ -321,7 +321,7 @@ export default function () {
 
           <Button
             size="compact"
-            onClick={() => window.location.replace("https://github.com/layerhub-io/react-design-editor")}
+            onClick={() => window.location.replace("https://github.com/layerhub-plutis-io/react-design-editor")}
             kind={KIND.tertiary}
           >
             <Github size={24} />

@@ -1,4 +1,4 @@
-import { IScene, ILayer } from "@layerhub-io/types"
+import { IScene, ILayer } from "@layerhub-plutis-io/types"
 
 export const loadVideoResource = (videoSrc: string): Promise<HTMLVideoElement> => {
   return new Promise(function (resolve, reject) {

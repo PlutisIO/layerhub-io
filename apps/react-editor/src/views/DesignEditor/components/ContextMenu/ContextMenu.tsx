@@ -1,4 +1,4 @@
-import { useContextMenuRequest, useEditor } from "@layerhub-io/react"
+import { useContextMenuRequest, useEditor } from "@layerhub-plutis-io/react"
 import { useStyletron } from "baseui"
 import BringToFront from "~/components/Icons/BringToFront"
 import Delete from "~/components/Icons/Delete"
