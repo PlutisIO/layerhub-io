@@ -1,4 +1,4 @@
-# @layerhub-io/react
+# @layerhub-plutis-io/react
 
 ## 0.3.3
 
@@ -6,7 +6,7 @@
 
 - fix object position on manual update
 - Updated dependencies
-  - @layerhub-io/core@0.3.3
+  - @layerhub-plutis-io/core@0.3.3
 
 ## 0.3.2
 
@@ -14,7 +14,7 @@
 
 - fix video loading
 - Updated dependencies
-  - @layerhub-io/core@0.3.2
+  - @layerhub-plutis-io/core@0.3.2
 
 ## 0.3.1
 
@@ -22,7 +22,7 @@
 
 - fix background image on added to editor
 - Updated dependencies
-  - @layerhub-io/core@0.3.1
+  - @layerhub-plutis-io/core@0.3.1
 
 ## 0.3.0
 
@@ -33,7 +33,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @layerhub-io/core@0.3.0
+  - @layerhub-plutis-io/core@0.3.0
 
 ## 0.2.6
 
@@ -41,7 +41,7 @@
 
 - Push history on load template from json
 - Updated dependencies
-  - @layerhub-io/core@0.2.6
+  - @layerhub-plutis-io/core@0.2.6
 
 ## 0.2.5
 
@@ -49,7 +49,7 @@
 
 - Add debug option
 - Updated dependencies
-  - @layerhub-io/core@0.2.5
+  - @layerhub-plutis-io/core@0.2.5
 
 ## 0.2.4
 
@@ -57,7 +57,7 @@
 
 - fix updated being updated twice
 - Updated dependencies
-  - @layerhub-io/core@0.2.4
+  - @layerhub-plutis-io/core@0.2.4
 
 ## 0.2.3
 
@@ -65,7 +65,7 @@
 
 - update shadow apply
 - Updated dependencies
-  - @layerhub-io/core@0.2.3
+  - @layerhub-plutis-io/core@0.2.3
 
 ## 0.2.2
 
@@ -73,7 +73,7 @@
 
 - make dynamic canvas background
 - Updated dependencies
-  - @layerhub-io/core@0.2.2
+  - @layerhub-plutis-io/core@0.2.2
 
 ## 0.2.1
 
@@ -81,7 +81,7 @@
 
 - make frame selectable
 - Updated dependencies
-  - @layerhub-io/core@0.2.1
+  - @layerhub-plutis-io/core@0.2.1
 
 ## 0.2.0
 
@@ -92,7 +92,7 @@
 ### Patch Changes
 
 - Updated dependencies [5fbb000]
-  - @layerhub-io/core@0.2.0
+  - @layerhub-plutis-io/core@0.2.0
 
 ## 0.1.0
 
@@ -103,4 +103,4 @@
 ### Patch Changes
 
 - Updated dependencies [cfd5294]
-  - @layerhub-io/core@0.1.0
+  - @layerhub-plutis-io/core@0.1.0

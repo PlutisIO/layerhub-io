@@ -1,8 +1,8 @@
 import * as React from "react"
-import { Editor } from "@layerhub-io/core"
+import { Editor } from "@layerhub-plutis-io/core"
 import { Context } from "./context"
 import ResizeObserver from "resize-observer-polyfill"
-import { EditorConfig } from "@layerhub-io/types"
+import { EditorConfig } from "@layerhub-plutis-io/types"
 
 interface Props {
   config?: Partial<EditorConfig>

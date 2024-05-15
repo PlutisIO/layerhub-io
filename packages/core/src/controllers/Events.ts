@@ -93,6 +93,9 @@ class Events extends Base {
   }
 
   onKeyDown(event: KeyboardEvent) {
+    if (event.stopPropagation) {
+      event.stopPropagation();
+    }
     if (shourcutsManager.isCtrlZero(event)) {
       event.preventDefault()
       this.editor.zoom.zoomToFit()

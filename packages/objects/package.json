@@ -1,5 +1,5 @@
 {
-  "name": "@layerhub-io/objects",
+  "name": "@layerhub-plutis-io/objects",
   "version": "0.2.0",
   "description": "",
   "main": "./dist/index.js",
@@ -9,7 +9,7 @@
     "prepublish": "pnpm build",
     "build": "tsc"
   },
-  "author": "Dany Boza",
+  "author": "Plutis",
   "license": "MIT",
   "devDependencies": {
     "@types/fabric": "^4.5.7",

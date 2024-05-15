@@ -1,4 +1,4 @@
-# @layerhub-io/downloader
+# @layerhub-plutis-io/downloader
 
 ## 0.1.0
 

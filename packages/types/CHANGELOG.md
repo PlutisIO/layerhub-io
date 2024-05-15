@@ -1,4 +1,4 @@
-# @layerhub-io/types
+# @layerhub-plutis-io/types
 
 ## 0.3.0
 

@@ -1,5 +1,5 @@
 import { computed, inject, provide, reactive } from "vue"
-import type { EditorState, Editor } from "@layerhub-io/core"
+import type { EditorState, Editor } from "@layerhub-plutis-io/core"
 
 export const initStore = () => {
   const editorState = reactive<Partial<EditorState>>({

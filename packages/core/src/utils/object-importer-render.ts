@@ -11,7 +11,7 @@ import {
   IStaticPath,
   IStaticText,
   IStaticVector,
-} from "@layerhub-io/types"
+} from "@layerhub-plutis-io/types"
 
 class ObjectImporter {
   async import(item: any, params: any): Promise<fabric.Object> {

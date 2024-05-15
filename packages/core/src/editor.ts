@@ -12,7 +12,7 @@ import Personalization from "./controllers/Personalization"
 import { EditorState } from "./common/interfaces"
 import { defaultEditorConfig } from "./common/constants"
 import Guidelines from "./controllers/Guidelines"
-import { EditorConfig } from "@layerhub-io/types"
+import { EditorConfig } from "@layerhub-plutis-io/types"
 
 export class Editor extends EventManager {
   public canvas: Canvas

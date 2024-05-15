@@ -1,1 +1,1 @@
-# @layerhub-io/react
+# @layerhub-plutis-io/react

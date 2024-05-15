@@ -1,5 +1,5 @@
 {
-  "name": "@layerhub-io/downloader",
+  "name": "@layerhub-plutis-io/downloader",
   "version": "0.1.0",
   "description": "",
   "main": "./dist/index.js",
@@ -9,7 +9,7 @@
     "build": "tsc",
     "prepublish": "pnpm build"
   },
-  "author": "Dany Boza",
+  "author": "Plutis",
   "license": "ISC",
   "devDependencies": {
     "@types/fs-extra": "^9.0.13",

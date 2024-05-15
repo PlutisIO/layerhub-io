@@ -1,6 +1,6 @@
 import fabric from "fabric/fabric-impl"
 import { Editor } from "../editor"
-import { EditorConfig } from "@layerhub-io/types"
+import { EditorConfig } from "@layerhub-plutis-io/types"
 
 export type Direction = "top" | "left"
 export type Size = "width" | "height"

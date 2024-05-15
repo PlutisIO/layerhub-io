@@ -1,6 +1,6 @@
 import { fabric } from "fabric"
 import { nanoid } from "nanoid"
-import { IScene, ILayer } from "@layerhub-io/types"
+import { IScene, ILayer } from "@layerhub-plutis-io/types"
 import { LayerType } from "../common/constants"
 import ObjectExporter from "../utils/object-exporter"
 import ObjectImporter from "../utils/object-importer"

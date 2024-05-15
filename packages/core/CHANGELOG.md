@@ -1,4 +1,4 @@
-# @layerhub-io/core
+# @layerhub-plutis-io/core
 
 ## 0.3.3
 
@@ -27,8 +27,8 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @layerhub-io/objects@0.2.0
-  - @layerhub-io/types@0.3.0
+  - @layerhub-plutis-io/objects@0.2.0
+  - @layerhub-plutis-io/types@0.3.0
 
 ## 0.2.6
 
@@ -66,7 +66,7 @@
 
 - make frame selectable
 - Updated dependencies
-  - @layerhub-io/objects@0.1.1
+  - @layerhub-plutis-io/objects@0.1.1
 
 ## 0.2.0
 
@@ -77,7 +77,7 @@
 ### Patch Changes
 
 - Updated dependencies [5fbb000]
-  - @layerhub-io/types@0.2.0
+  - @layerhub-plutis-io/types@0.2.0
 
 ## 0.1.0
 
@@ -88,5 +88,5 @@
 ### Patch Changes
 
 - Updated dependencies [cfd5294]
-  - @layerhub-io/objects@0.1.0
-  - @layerhub-io/types@0.1.0
+  - @layerhub-plutis-io/objects@0.1.0
+  - @layerhub-plutis-io/types@0.1.0

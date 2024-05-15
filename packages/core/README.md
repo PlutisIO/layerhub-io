@@ -1,1 +1,1 @@
-# @layerhub-io/core
+# @layerhub-plutis-io/core

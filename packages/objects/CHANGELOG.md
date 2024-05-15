@@ -1,4 +1,4 @@
-# @layerhub-io/objects
+# @layerhub-plutis-io/objects
 
 ## 0.2.0
 

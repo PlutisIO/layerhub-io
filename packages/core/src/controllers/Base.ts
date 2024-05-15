@@ -1,7 +1,7 @@
 import { Editor } from ".."
 import { EditorState } from "../common/interfaces"
 import { ControllerOptions, FabricCanvas } from "../common/interfaces"
-import { EditorConfig } from "@layerhub-io/types"
+import { EditorConfig } from "@layerhub-plutis-io/types"
 class Base {
   protected canvas: FabricCanvas
   protected config: EditorConfig

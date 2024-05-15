@@ -1,1 +1,1 @@
-# @layerhub-io/vue
+# @layerhub-plutis-io/vue

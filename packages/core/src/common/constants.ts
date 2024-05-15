@@ -1,4 +1,4 @@
-import { EditorConfig } from "@layerhub-io/types"
+import { EditorConfig } from "@layerhub-plutis-io/types"
 
 export const PROPERTIES_TO_INCLUDE = [
   "id",

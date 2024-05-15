@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { onMounted, onUnmounted } from "vue"
-import { Editor } from "@layerhub-io/core"
+import { Editor } from "@layerhub-plutis-io/core"
 import { useEditorState } from "./state"
 import ResizeObserver from "resize-observer-polyfill"
 

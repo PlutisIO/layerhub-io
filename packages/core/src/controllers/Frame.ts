@@ -1,4 +1,4 @@
-import { ILayer } from "@layerhub-io/types"
+import { ILayer } from "@layerhub-plutis-io/types"
 import { fabric } from "fabric"
 import { defaultFrameOptions, LayerType, defaultBackgroundOptions } from "../common/constants"
 import { ControllerOptions, Dimension, GradientOptions } from "../common/interfaces"
