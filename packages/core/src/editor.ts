@@ -104,7 +104,9 @@ export class Editor extends EventManager {
                   if(exitEditing){
                     var items: any = [];
                     groupItems.forEach(function (obj: any) {
-                      items.push(obj);
+                      const newObj = obj;
+                      newObj.selectable = true;
+                      items.push(newObj);
                       canvas.canvas.remove(obj);
                     });
 
