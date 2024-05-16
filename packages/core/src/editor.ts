@@ -50,15 +50,15 @@ export class Editor extends EventManager {
       editor: this,
     })
     canvas.canvas.on('mouse:dblclick', function(options: any) {
-      function ungroup (group: any) {
+      async function ungroup (group: any) {
         groupItems = group._objects;
         group._restoreObjectsState();
         canvas.canvas.remove(group);
         for (var i = 0; i < groupItems.length; i++) {
-            if(groupItems[i] != "StaticText"){
+            if(groupItems[i] == "StaticText"){
                 groupItems[i].selectable = false;
             }                               
-            canvas.canvas.add(groupItems[i]);
+            await canvas.canvas.add(groupItems[i]);
         }
         canvas.canvas.renderAll();
       };
@@ -75,7 +75,7 @@ export class Editor extends EventManager {
             y: thisTarget.top
           }
   
-          thisTarget.forEachObject(function(object: any, i: any) {
+          thisTarget.forEachObject(async function(object: any, i: any) {
             console.log(object.type);
             if(object.type == "StaticText"){           
               var matrix = thisTarget.calcTransformMatrix();
@@ -89,9 +89,7 @@ export class Editor extends EventManager {
               }
 
               if ((mousePos.x >= objectPos.xStart && mousePos.x <= objectPos.xEnd) && (mousePos.y >= objectPos.yStart && mousePos.y <= objectPos.yEnd)) {
-                  
-
-                ungroup(thisTarget);
+                await ungroup(thisTarget);
                 canvas.canvas.setActiveObject(object);
 
                 object.enterEditing();
