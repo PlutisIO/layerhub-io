@@ -12,6 +12,13 @@ class Renderer {
       const staticCanvas = new fabric.StaticCanvas(null)
       await this.loadTemplate(staticCanvas, template, params)
       // IF CONTAINS VIDEO, add await
+      staticCanvas._objects.forEach((object: any) => {
+        if (object.clipPath && object.clipPath.type.toLowerCase().includes("path")) {
+          fabric.util.enlivenObjects([object.clipPath], function(arg1: any) {
+            object.clipPath = arg1[0];
+          }, "");
+        }
+      });
       const data = staticCanvas.toDataURL({
         top: 0,
         left: 0,

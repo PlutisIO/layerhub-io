@@ -83,15 +83,27 @@ class ObjectExporter {
 
   public staticImage(item: ILayer, options: Required<ILayer>, inGroup: boolean): IStaticImage {
     const baseOptions = this.getBaseOptions(item, options, inGroup)
-    const { src, cropX, cropY, metadata } = item as IStaticImage
-    const object = {
-      ...baseOptions,
-      src,
-      cropX,
-      cropY,
-      metadata,
+    const { src, cropX, cropY, metadata, clipPath } = item as IStaticImage
+    let object: any = {};
+    if (clipPath != undefined && clipPath.type == "path") {
+      console.log("Exporting clipped image.")
+      object = {
+        ...baseOptions,
+        src,
+        cropX,
+        cropY,
+        metadata,
+        clipPath
+      }
+    } else {
+      object = {
+        ...baseOptions,
+        src,
+        cropX,
+        cropY,
+        metadata
+      }
     }
-
     return object
   }
 

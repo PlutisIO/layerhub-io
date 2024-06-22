@@ -21,6 +21,7 @@ import { createVideoElement } from "./video-loader"
 class ObjectImporter {
   constructor(public editor: Editor) {}
   async import(item: ILayer, options: Required<ILayer>, inGroup: boolean = false): Promise<fabric.Object> {
+    console.log(`Object with type: ${item.type} found...`);
     let object: fabric.Object
     switch (item.type) {
       case LayerType.STATIC_TEXT:
@@ -99,7 +100,7 @@ class ObjectImporter {
     return new Promise(async (resolve, reject) => {
       try {
         const baseOptions = this.getBaseOptions(item, options, inGroup)
-        const { src, cropX, cropY } = item as IStaticImage
+        const { src, cropX, cropY, clipPath } = item as IStaticImage
 
         const image: any = await loadImageFromURL(src)
 
@@ -109,11 +110,25 @@ class ObjectImporter {
           baseOptions.height = image.height
         }
 
-        const element = new fabric.StaticImage(image, {
-          ...baseOptions,
-          cropX: cropX || 0,
-          cropY: cropY || 0,
-        })
+        let element: any = null;
+
+        console.log(clipPath != undefined, clipPath?.type);
+        if (clipPath != undefined && clipPath.type.toLowerCase().includes('path')) {
+          console.log("Importing clipped image.")
+          element = new fabric.StaticImage(image, {
+            ...baseOptions,
+            cropX: cropX || 0,
+            cropY: cropY || 0,
+            clipPath
+          })
+        } else {
+          element = new fabric.StaticImage(image, {
+            ...baseOptions,
+            cropX: cropX || 0,
+            cropY: cropY || 0,
+          })
+        }
+
 
         updateObjectBounds(element, options)
         updateObjectShadow(element, item.shadow)
